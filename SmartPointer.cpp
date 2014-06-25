@@ -20,7 +20,7 @@ public:
     /* 覆写=运算符，这样才能将一个旧的智能指针赋值给另一指针，
      * 旧的引用计数减一，新的智能指针的引用计数则加一。
      */
-    SmartPointer<T>& operator=(SmartPointer<T>& sptr )
+    SmartPointer<T>& operator=(SmartPointer<T>& sptr)
     {
         if(this == &sptr)
         {
