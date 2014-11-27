@@ -12,7 +12,7 @@
  class SingleCoreA  : public SingleCore
  {
  public:
- 	void Show() {cout << "SingleCore B"<<endl;}	
+ 	void Show() {cout << "SingleCore A"<<endl;}	
  };
  // 单核B
  class SingleCoreB : public SingleCore
